@@ -20,10 +20,7 @@ export default function Page() {
                     <form>
                         <h2 className="title">Senha</h2>
                         <input type="password" placeholder="Senha" className="input-field2" />
-                        <div>
-                            <input type="checkbox" id="remember-me" name="remember-me" />
-                            <label htmlFor="remember-me">Lembrar-me</label>
-                        </div>
+                        
                         <div className="butt-send">
                             <button type="button" className="submit-button"
                             // onClick="return validateForm()"

@@ -8,7 +8,7 @@
 
 /* Estilos para o corpo da página */
 body {
-  background-image: url(/intranet/images/Preview_2.jpg); /* Define uma imagem de fundo */
+  background-image: url(../assets/images/Preview_2.jpg); /* Define uma imagem de fundo */
   background-size: cover; /* Faz com que a imagem de fundo cubra toda a área do corpo */
   background-position: right; /* Alinha a imagem de fundo à direita */
   background-color: #fffafa; /* Define uma cor de fundo alternativa */
@@ -21,7 +21,6 @@ header {
   align-items: center; /* Alinha os itens verticalmente no centro */
   justify-content: center; /* Centraliza os itens */
   background-color: #181818; /* Define a cor de fundo do cabeçalho */
-  width: 100%;
   padding: 10px 20px; /* Adiciona preenchimento interno ao cabeçalho */
   height: 11vh; /* Define a altura do cabeçalho como 11% da altura da viewport */
 }
@@ -39,8 +38,7 @@ main {
   display: flex; /* Usa flexbox para layout */
   justify-content: center; /* Centraliza os itens */
   align-items: center; /* Alinha os itens verticalmente no centro */
-  height: 100vh; /* Define a altura como 80% da altura da viewport */
-  flex-direction: column;
+  height: 80vh; /* Define a altura como 80% da altura da viewport */
 }
 
 /* Estilos para o cartão de login */
@@ -176,18 +174,18 @@ main {
   }
 
   .login-card {
-      max-width: 80%; /* Define a largura máxima */
-      padding: 20px 15px; /* Define o preenchimento interno */
+      max-width: 90%; /* Define a largura máxima */
+      padding: 30px 20px; /* Define o preenchimento interno */
   }
 
   .title {
       font-size: 20px; /* Define o tamanho da fonte */
       margin-bottom: 30px; /* Define a margem inferior */
   }
-
+  
   .ch-akrus h2 {
-      font-size: 18px; /* Define o tamanho da fonte */
-      margin-bottom: 20px; /* Define a margem inferior */
+      font-size: 15px; /* Define o tamanho da fonte */
+      margin-bottom: 15px; /* Define a margem inferior */
   }
 
   .submit-button {
@@ -201,7 +199,6 @@ main {
       flex-direction: column; /* Direciona os itens em coluna */
       align-items: center; /* Alinha os itens ao centro */
       text-align: center; /* Alinha o texto ao centro */
-      width: 100%;
   }
 
   #logofooter,
@@ -209,8 +206,4 @@ main {
       padding: 5px; /* Define o preenchimento */
       margin: 5px 0; /* Define as margens superior e inferior */
   }
-}
-
-footer {
-  width: 100%;
 }
