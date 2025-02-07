@@ -1,4 +1,4 @@
-/* Estilos gerais para todos os elementos */
+/* Estilos gerais para todos os elementos - IluminAkrus - Akrus*/
 * {
   margin: 0; /* Remove a margem padrão de todos os elementos */
   padding: 0; /* Remove o preenchimento padrão de todos os elementos */
@@ -76,7 +76,7 @@ body {
 
 /* Estilo para a seção IluminAkrus */
 .ilumin-section {
-  background-image: url(../assets/images/48982e53-ec1b-455c-84e0-c4d0be71b657.jpg); /* Define a imagem de fundo da seção */
+  background-image: url(/intranet/images/48982e53-ec1b-455c-84e0-c4d0be71b657.jpg); /* Define a imagem de fundo da seção */
   padding: 45px; /* Define o preenchimento interno da seção */
   margin-bottom: 15px; /* Define a margem inferior */
   gap: 40px; /* Define o espaçamento entre os itens */
@@ -117,7 +117,7 @@ body {
 .footer {
   display: flex; /* Usa layout flexível */
   background-color: #181818; /* Define a cor de fundo */
-  height: 7rem; /* Define a altura */
+  height: 6rem; /* Define a altura */
   width: 100%; /* Define a largura */
   justify-content: space-between; /* Espaça os itens */
   align-items: center; /* Alinha os itens ao centro */
@@ -137,10 +137,6 @@ body {
 
 /* Ajusta o logo para telas menores */
 @media (max-width: 768px) {
-  body {
-    overflow-x: hidden;
-}
-
   .logo img {
     max-height: 50px; /* Define a altura máxima */
     padding-left: 20px; /* Define o preenchimento à esquerda */
@@ -186,7 +182,7 @@ body {
 /* Ajusta a altura do banner para telas muito pequenas */
 @media (max-width: 767px) {
   .banner {
-    height: 110px; /* Define a altura */
+    height: 90px; /* Define a altura */
   }
 
   .banner img {
@@ -200,12 +196,11 @@ body {
     flex-direction: column; /* Direciona os itens em coluna */
     align-items: center; /* Alinha os itens ao centro */
     text-align: center; /* Alinha o texto ao centro */
-    height: 127px;
   }
 
   #logofooter,
   #empresas {
-    padding: 3px; /* Define o preenchimento */
-    margin: 5px; /* Define a margem superior e inferior */
+    padding: 5px; /* Define o preenchimento */
+    margin: 5px 0; /* Define a margem superior e inferior */
   }
 }
